@@ -1,18 +1,18 @@
-import * as THREE from 'three'
-import gsap from "gsap"
+import * as THREE from '../src/modules/three.module.js'
+// import { gsap } from '../node_modules/gsap/dist/gsap.js'
 import {
     OrbitControls
-} from '/node_modules/three/examples/jsm/controls/OrbitControls.js'
+} from '../src/modules/OrbitControls.js'
 import {
     color,
     GUI
-} from '/node_modules/dat.gui/build/dat.gui.module.js'
+} from '../node_modules/dat.gui/build/dat.gui.module.js'
 import {
     RGBELoader
-} from '/node_modules/three/examples/jsm/loaders/RGBELoader.js'
+} from '../src/modules/RGBELoader.js'
 import {
     GLTFLoader
-} from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js'
+} from '../src/modules/GLTFLoader.js'
 
 // ----------------- Canvas -----------------
 
